@@ -1,0 +1,131 @@
+{
+    "properties": {
+        "_id": { "bsonType": "objectId" },
+        "name": { 
+            "bsonType": "string",
+            "description": "must be a string and is required"
+        },
+
+        "days":{
+            "monday": {
+                "workingDay": { "bsonType": "bool" },
+                "workingHours": { 
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "breakHour": {
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "AppToBeBlocked": [{
+                    "name": { "bsonType": "string" },
+                    "link": { "bsonType": "string" },
+                    "time_limit": { "bsonType": "int" }
+                }]
+                
+            },
+            "tuesday": {
+                "workingDay": { "bsonType": "bool" },
+                "workingHours": { 
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "breakHour": {
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "AppToBeBlocked": [{
+                    "name": { "bsonType": "string" },
+                    "link": { "bsonType": "string" },
+                    "time_limit": { "bsonType": "int" }
+                }]
+                
+            },
+            "wednesday": {
+                "workingDay": { "bsonType": "bool" },
+                "workingHours": { 
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "breakHour": {
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "AppToBeBlocked": [{
+                    "name": { "bsonType": "string" },
+                    "link": { "bsonType": "string" },
+                    "time_limit": { "bsonType": "int" }
+                }]
+                
+            },
+            "thursday": {
+                "workingDay": { "bsonType": "bool" },
+                "workingHours": { 
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "breakHour": {
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "AppToBeBlocked": [{
+                    "name": { "bsonType": "string" },
+                    "link": { "bsonType": "string" },
+                    "time_limit": { "bsonType": "int" }
+                }]
+                
+            },
+            "friday": {
+                "workingDay": { "bsonType": "bool" },
+                "workingHours": { 
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "breakHour": {
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "AppToBeBlocked": [{
+                    "name": { "bsonType": "string" },
+                    "link": { "bsonType": "string" },
+                    "time_limit": { "bsonType": "int" }
+                }]
+                
+            },
+            "saturday": {
+                "workingDay": { "bsonType": "bool" },
+                "workingHours": { 
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "breakHour": {
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "AppToBeBlocked": [{
+                    "name": { "bsonType": "string" },
+                    "link": { "bsonType": "string" },
+                    "time_limit": { "bsonType": "int" }
+                }]
+                
+            },
+            "sundayy": {
+                "workingDay": { "bsonType": "bool" },
+                "workingHours": { 
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "breakHour": {
+                    "starting_hour": { "bsonType": "ISODate" },
+                    "ending_hour": {"bsonType" : "ISODate"}
+                },
+                "AppToBeBlocked": [{
+                    "name": { "bsonType": "string" },
+                    "link": { "bsonType": "string" },
+                    "time_limit": { "bsonType": "int" }
+                }]
+                
+            }
+        }
+    }
+}
